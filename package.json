@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-pdf-viewer ./src/components/HelloWorld.vue",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/vue-pdf-viewer.common.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
